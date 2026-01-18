@@ -51,7 +51,11 @@ git clone https://github.com/seu-usuario/gravacao-electron.git
 
 npm install -g electron
 npm init -y
-npm install electron --save-dev 
+npm install electron --save-dev
+npm install tsparticles
+
+Coloque no final do seu html ou no script, para que as particulas funcionem:
+https://cdn.jsdelivr.net/npm/tsparticles@1.37.6/tsparticles.min.js
 
 ````
 
