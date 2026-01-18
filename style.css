@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&family=VT323&display=swap');
+
+:root {
+    --Open: "Open Sans", sans-serif;
+    --Sans: "Elms Sans", sans-serif;
+    --Start: "Press Start 2P", system-ui;
+    --VT323: "VT323", monospace;
+
+    --pink1:#ff8b9b;
+    --pink2:#eb798a;
+    --pink3:#d76779;
+    --pink4:#c25568;
+    --pink5:#ae4357;
+
+    --bege1:#a88e69;
+    --bege2:#bea781;
+    --bege3:#d4c099;
+    --bege4:#e9d8b0;
+    --bege5:#fff1c8;
+
+    --dark1:#7c5366;
+    --dark2:#6c4457;
+    --dark3:#5b3547;
+    --dark4:#4b2538;
+    --dark5:#3a1628;
+}
+
+body {
+    font-family: var(--Start);
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    color: var(--bege5);
+    background-color: var(--dark5);
+    -webkit-app-region: drag; /* vai conseguir arrastar a tela, quando estiver utilizando o frame */
+    /* -webkit-app-region: no-drag; se você usar botões mas o frame está ativado, aí você senão pode dar problema */
+}
+
+#clock {
+    color: var(--pink1);
+    font-size: 50px;
+    text-shadow: var(--pink4) 0 0 25px;
+}
+
+#day {
+    color: var(--bege5);
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_cat {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
