@@ -11,7 +11,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^39.8.5"
+    "electron": "^41.10.6"
   },
   "dependencies": {
     "tsparticles": "^3.9.1"
